@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class main {
 
 	static int breite;
 	static int laenge;

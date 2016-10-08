@@ -4,7 +4,11 @@ public class Spielfeld {
 
 	boolean[][] matrix;
 	boolean[][] matrixAlt;
+<<<<<<< HEAD
 	int zufallszahl, breite, laenge;
+=======
+	int [][] stelle;
+>>>>>>> origin/master
 
 	public Spielfeld(int breite, int laenge){
 		this.breite=breite;
@@ -45,10 +49,15 @@ public class Spielfeld {
 			System.out.println();
 		}
 	}
+<<<<<<< HEAD
 	
 //	public void zufallszahl(){
 //		Random random = new Random();
 //		zufallszahl = random.nextInt(breite*laenge);
 //		System.out.println(zufallszahl);
 //	}
+=======
+	 
+	
+>>>>>>> origin/master
 }
