@@ -9,12 +9,17 @@ public class main {
 
 	
 	public static void main(String[] args) throws IOException {
+		
+		//Grafik grafik = new Grafik();
 
 		while(eingabe==false){
 		try{
 			Scanner scan = new Scanner(System.in);
 			System.out.println("Geben Sie die Breite der Matrix an:");
 			breite=scan.nextInt();
+			if(breite <=0){
+				throw new Exception();
+			}
 			eingabe=true;
 		}
 		catch( Exception ex){
@@ -30,6 +35,9 @@ public class main {
 				Scanner scan = new Scanner(System.in);
 				System.out.println("Geben Sie die Laenge der Matrix an:");
 				laenge=scan.nextInt();
+				if(laenge <=0){
+					throw new Exception();
+				}
 				eingabe=true;
 			}
 			catch( Exception ex){
